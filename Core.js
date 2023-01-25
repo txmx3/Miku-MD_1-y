@@ -4869,7 +4869,7 @@ reaction, truth, dare, couple, soulmate, handsomecheck, beautifulcheck, awesomec
 
 
  『  *${global.BotName}*  』
- Angetrieben von: *✨️MAGIC✨️*
+ Angetrieben von: *Max*
 
  🔰 Um einen dieser Befehle zu verwenden schreib 
  " *${prefix}<Command name>* ".
