@@ -1392,6 +1392,9 @@ return list[Math.floor(list.length * Math.random())]
     if (smallinput=='lol') {
         reply (`*XD*`)
     }
+    if (smallinput=='#a') {
+        reply (`*a*` )
+    
 
     if (smallinput=='op') {
         reply (`Hehe`)
@@ -4902,7 +4905,7 @@ case '':
     
         
  const needhelpmenu = `Brauchst du Hilfe ${pushname} Senpai? Gib *${prefix}help* Um meine vollständige Befehlsliste zu erhalten.`
-     
+   
          let butRun = [
                 {buttonId: `${prefix}help`, buttonText: {displayText: 'Help'}, type: 1}
                 ]
