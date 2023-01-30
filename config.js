@@ -7,7 +7,7 @@ global.autoReadAll = false
 global.antitags = true
 
 
-global.Owner = ['491777062822','4917662927731]  // -- Add multiple numbers like  ['918101967835','919357940276','917896587453']
+global.Owner = ['491777062822','4917662927731']  // -- Add multiple numbers like  ['918101967835','919357940276','917896587453']
 global.OwnerNumber = ['491777062822','4917662927731']  // -- Add multiple numbers like  ['918101967835','919357940276','917896587453']
 global.ownertag = ['491777062822','4917662927731']  // -- Add multiple numbers like  ['918101967835','919357940276','917896587453']
 global.BotName = "Miku"
