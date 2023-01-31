@@ -1409,6 +1409,16 @@ return list[Math.floor(list.length * Math.random())]
        reply (`Pong!`)
     }
 
+    if(smallinput=='-Speed') {
+       reply (`「 System Info 」 Speed : ${latensie.toFixed(4)} miliseconds Up Time : ${runtime(process.uptime())} Bot Name : ${global.BotName} Owner Name : ${global.OwnerName} 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : Amazon AWS 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.users).length}`
+
+    }
+
+    if(smallinput=='-System') {
+       reply (`「 System Info 」 Speed : ${latensie.toFixed(4)} miliseconds Up Time : ${runtime(process.uptime())} Bot Name : ${global.BotName} Owner Name : ${global.OwnerName} 𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : Amazon AWS 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.users).length}`
+    
+    }
+
     if (smallinput=='op') {
         reply (`Hehe`)
     }
