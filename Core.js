@@ -1384,21 +1384,25 @@ return list[Math.floor(list.length * Math.random())]
     if( smallinput.includes('konichiwa') || smallinput.includes('konochiwa') || smallinput.includes('konichiba') || smallinput.includes('salute')){
       reply (`Konichiwa *${pushname}*, I am *${BotName}*. How can i help you?`);
     }
+     
+    if(smallinput=='.speed') {
 
-    client.on('message', message => {
+       reply (` Speed: ${latensie.toFixed(4) miliseconds} `)
 
-	if(message.body === '.ping') {
-		message.reply(`pong`);
-   Speed : ${latensie.toFixed(4)} miliseconds
-    Up Time : ${runtime(process.uptime())}
-    Bot Name : ${global.BotName}
-    Owner Name : ${global.OwnerName}
-    𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : Whatsapp
-    𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.users).length}
- }
-};
+    }
     
-   
+    if(smallinput=='.user') {
+       reply (` 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.users).length} `)
+    }
+       
+    if(smallinput=='.uptime') {
+       reply (` Up Time : ${runtime(process.uptime())} `)
+    }
+    
+    if(smallinput=='.name') {
+       reply (` Bot Name : ${global.BotName} `)
+    }
+    
     if (smallinput=='bot') {
       reply (`Hello *${pushname}*, I am *${BotName}*, a WhatsApp bot made by *Fantox* and currently being hosted by *${OwnerName}*.  type  *${prefix}help* to get my full command list.`);
     }
@@ -1407,19 +1411,19 @@ return list[Math.floor(list.length * Math.random())]
         reply (`*XD*`)
     }
 
-    if (smallinput=='-a') {
+    if (smallinput=='.a') {
         reply (`*a*` )
     }
 
-    if(smallinput=='-a2') {
+    if(smallinput=='.a2') {
        reply (`Pong!`)
     }
     
-    if(smallinput=='-a3') {
+    if(smallinput=='.a3') {
        reply (`Pong!`)
     }
 
-    if(smallinput=='Bottest') {
+    if(smallinput=='.Bottest') {
        reply (`Pong!`)
     }
 
