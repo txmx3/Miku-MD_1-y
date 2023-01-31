@@ -1395,8 +1395,8 @@ return list[Math.floor(list.length * Math.random())]
     Owner Name : ${global.OwnerName}
     𝗣𝗹𝗮𝘁𝗳𝗼𝗿𝗺 : Whatsapp
     𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.users).length}
-}
-}};
+ }
+};
     
    
     if (smallinput=='bot') {
