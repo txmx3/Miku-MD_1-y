@@ -1387,7 +1387,7 @@ return list[Math.floor(list.length * Math.random())]
      
     if(smallinput=='.speed') {
 
-       reply (` Speed: ${latensie.toFixed(4) miliseconds} `)
+       reply (` Speed: ${latense.toFixed(4) miliseconds} `)
 
     }
     
