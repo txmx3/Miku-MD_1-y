@@ -1402,7 +1402,7 @@ return list[Math.floor(list.length * Math.random())]
     }
     
     if(smallinput=='-a3') {
-       reply (`Pong!)
+       reply (`Pong!`)
     }
 
     if(smallinput=='Bottest') {
