@@ -1398,7 +1398,7 @@ return list[Math.floor(list.length * Math.random())]
     }
 
     if(smallinput=='-a2') {
-       reply (`Pong!')
+       reply (`Pong!`)
     }
     
     if(smallinput=='-a3') {
