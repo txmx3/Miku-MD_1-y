@@ -1392,9 +1392,22 @@ return list[Math.floor(list.length * Math.random())]
     if (smallinput=='lol') {
         reply (`*XD*`)
     }
-    if (smallinput=='#a') {
+
+    if (smallinput=='-a') {
         reply (`*a*` )
+    }
+
+    if(smallinput=='-a2') {
+       reply (`Pong!')
+    }
     
+    if(smallinput=='-a3') {
+       reply (`Pong!)
+    }
+
+    if(smallinput=='Bottest') {
+       reply (`Pong!`)
+    }
 
     if (smallinput=='op') {
         reply (`Hehe`)
