@@ -1385,7 +1385,8 @@ return list[Math.floor(list.length * Math.random())]
       reply (`Konichiwa *${pushname}*, I am *${BotName}*. How can i help you?`);
     }
 
-client.on('message', message => {
+    client.on('message', message => {
+
 	if(message.body === '.ping') {
 		message.reply(`pong`);
    Speed : ${latensie.toFixed(4)} miliseconds
@@ -1396,6 +1397,7 @@ client.on('message', message => {
     𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.users).length}
 }
 }};
+    
    
     if (smallinput=='bot') {
       reply (`Hello *${pushname}*, I am *${BotName}*, a WhatsApp bot made by *Fantox* and currently being hosted by *${OwnerName}*.  type  *${prefix}help* to get my full command list.`);
