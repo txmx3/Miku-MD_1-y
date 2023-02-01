@@ -1490,7 +1490,7 @@ return list[Math.floor(list.length * Math.random())]
     }
 
     if(smallinput=='.join') {
-       reply (`Please contact  my Owner with the Grouplink!`)
+       reply (`Please contact my Owner with the Grouplink!`)
     }
 
     if (smallinput=='op') {
