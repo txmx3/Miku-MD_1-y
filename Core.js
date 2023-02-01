@@ -226,46 +226,6 @@ if (!isCmd && !m.isGroup){
 
 //////////////////////////////////////////////////////////////////////////////////////
 
-
-
-const id = '123456'
-const [result] = await sock.onWhatsApp(id)
-
-
-if (result.exists) console.log (`${id} exists on WhatsApp, as jid: ${result.jid}`)
-
-const status = await sock.fetchstatus("xyz@s.whatsapp.net")
-console.log("status: " + status)
-
-const name = 'My Name'
-await sock.updateProfileName(name)
-
-await sock.updateBlockStatus("xyz@s.whatsapp.net", "block")
-await sock.updateBlockStatus("xyz@s.whatsapp.net" ,"unblock")
-
-			    
-//id & people to add to the group (will throw error if it falls//
-const response = await sock.groupParticipantsUpdate(
-     ["abcd@s.whatsapp.net", "efgh@s.whatsapp.net"]
-     "add"
-)
-	
-//id & people to add to the group (will throw error if it falls//
-
-const response = await sock.groupParticipantsUpdate(
-      ["abcd@s.whatsapp.net", "efgh@s.whatsapp.net"]
-      "remove"
-)
-
-await sock.groupUpdateSubject("abcd-xyz@g.us", "New Subject!")
-
-await sock.groupUpdateDescription("abcd-xyz@g.us", "New Description!")
-
-
-
-
-//////////////////////////////////////////////////////////////////////////////////////
-
 */
 _sewa.expiredCheck(Miku, sewa)
 
