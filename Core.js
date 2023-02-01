@@ -244,7 +244,28 @@ await sock.updateBlockStatus("xyz@s.whatsapp.net", "block")
 await sock.updateBlockStatus("xyz@s.whatsapp.net" ,"unblock")
 
 // title & participants 
-const group = await sock.groupCreate("My 
+const group = await sock.groupCreate("$global.OwnerName new group", ["1234@s.whatsapp.net", "4564@s.whatsapp.net"])
+console.log ("created group with id " + group.gid)
+sock.sendMessage(group.id, { text: 'Hallo an alle :), Herzlich Willkommen in der Gruppe.})
+			    
+//id & people to add to the group (will throw error if it falls//
+const response = await sock.groupParticipantsUpdate(
+     ["abcd@s.whatsapp.net", "efgh@s.whatsapp.net"]
+     "add"
+)
+	
+//id & people to add to the group (will throw error if it falls//
+
+const response = await sock.groupParticipantsUpdate(
+      ["abcd@s.whatsapp.net", "efgh@s.whatsapp.net"]
+      "remove"
+)
+
+await sock.groupUpdateSubject("abcd-xyz@g.us", "New Subject!")
+
+await sock.groupUpdateDescription("abcd-xyz@g.us", "New Description!")
+
+
 
 
 //////////////////////////////////////////////////////////////////////////////////////
