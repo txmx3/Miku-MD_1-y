@@ -2782,7 +2782,7 @@ let mentioned = participants.map(v => v.jid)
      break
 
 
-     case 'join': case 'ojoin': case 'ajoin' {
+     case 'join': case 'ojoin': case 'ajoin': {
         if (isBan) return reply(mess.banned)	 			
      if (isBanChat) return reply(mess.bangc)
      if (!isCreator) return replay(mess.botowner)
