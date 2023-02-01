@@ -2748,7 +2748,7 @@ let mentioned = participants.map(v => v.jid)
      }
      break
 
-     case 'promote': case 'befördern': case 'bf": {
+     case 'promote': case 'befördern': case 'bf': {
         if (isBan) return reply(mess.banned)	 			
      if (isBanChat) return reply(mess.bangc)
      if (!m.isGroup) return replay(mess.grouponly)
