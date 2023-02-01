@@ -3431,7 +3431,7 @@ break
 
               
 
-case 'music': case 'play': case 'song': case 'ytplay' case 'spiele': case 'musik': {
+case 'music': case 'play': case 'song': case 'ytplay': case 'spiele': case 'musik': {
     if (isBan) return reply(mess.banned)	 			
  if (isBanChat) return reply(mess.bangc)
  const YT=require('./lib/ytdlcore')
