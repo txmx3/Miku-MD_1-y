@@ -1411,7 +1411,6 @@ return list[Math.floor(list.length * Math.random())]
 
     if(smallinput=='.mail') {
        reply (` Die Community Mail meines Owners heißt: max.public.community@gmail.com `)
-
     }
  
     if(smallinput=='.gwebsite') {
@@ -1447,7 +1446,7 @@ return list[Math.floor(list.length * Math.random())]
    }
 
     if (smallinput=='.a') {
-        reply (` Pong! `)
+        reply (`Pong!`)
     }
 
     if(smallinput=='.a2') {
@@ -1474,6 +1473,25 @@ return list[Math.floor(list.length * Math.random())]
        reply (`Pong!`)
     }
 
+    if(smallinput=='.aping') {
+       reply (`Pong!`)
+    }
+
+    if(smallinput=='.host') {
+       reply (`I am Currently hosted by my Owner!`)
+    }
+
+    if(smallinput=='.ahost') {
+       reply (`I am Currently hosted by my Owner!`)
+    }
+
+    if(smallinput=='.hosted') {
+       reply (`I am Currently hosted by my Owner!`)
+    }
+
+    if(smallinput=='.join') {
+       reply (`Please contact  my Owner with the Grouplink!`)
+    }
 
     if (smallinput=='op') {
         reply (`Hehe`)
