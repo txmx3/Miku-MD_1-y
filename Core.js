@@ -1376,7 +1376,7 @@ const ftroli = {
     if (!isInventoriBuruan){ addInventoriBuruan(m.sender) }
 
 
-    const menulist = `
+    const menulist = `-menu`
     Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Fantox to take your WhatsApp usage into next level.
         
        「 System Info 」
@@ -1427,6 +1427,22 @@ return list[Math.floor(list.length * Math.random())]
     if( smallinput.includes('konichiwa') || smallinput.includes('konochiwa') || smallinput.includes('konichiba') || smallinput.includes('salute')){
       reply (`Konichiwa *${pushname}*, I am *${BotName}*. How can i help you?`);
      }
+
+    if(smallinput=='userinfo') {
+       reply (` 「 User Info 」
+
+    
+
+    User Level: ${levelMenu}
+
+    User XP : ${xpMenu} \ ${reqXp}
+
+    User Role : ${role} `
+   }
+ 
+    if(smallinput=='ownername') {
+       reply (` Name : ${global.OwnerName} `
+   }
     
     if(smallinput=='.user') {
        reply (` 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.users).length} `)
