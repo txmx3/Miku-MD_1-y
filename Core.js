@@ -1429,11 +1429,11 @@ return list[Math.floor(list.length * Math.random())]
        reply (` Die Google Website meines Owners ist: https://sites.google.com/view/max2-community-website `)
     }
     
-    if(smallinput=='bsite') {
+    if(smallinput=='.bsite') {
        reply (` Die B-Website meines Owners lautet: https://bumpee.co/adv8w9mnho `)
     }
 
-    if(smallinput=='bwebsite') {
+    if(smallinput=='.bwebsite') {
        reply (` Die B-Website meines Owners lautet: https://bumpee.co/adv8w9mnho `)
     }
 
