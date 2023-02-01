@@ -1386,27 +1386,68 @@ return list[Math.floor(list.length * Math.random())]
      }
     
     if(smallinput=='.user') {
-       reply (` 𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.users).length} `)
+       reply (` *𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿* : ${Object.keys(global.db.users).length} `)
+    }
+
+     if(smallinput=='.Benutzer') {
+       reply (` *𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿* : ${Object.keys(global.db.users).length} `)
     }
        
     if(smallinput=='.uptime') {
-       reply (` Up Time : ${runtime(process.uptime())} `)
+       reply (` *Up Time* : ${runtime(process.uptime())} `)
+    }
+
+    if(smallinput=='.online') {
+       reply (` *Online Zeit* : ${runtime(process.uptime())} `)
     }
     
     if(smallinput=='.name') {
-       reply (` Bot Name : ${global.BotName} `)
+       reply (` *Bot Name* : ${global.BotName} `)
+    }
+
+    if(smallinput=='.email') {
+       reply (` Die Community Mail meines Owners heißt: max.public.community@gmail.com `)
+    }
+
+    if(smallinput=='.mail') {
+       reply (` Die Community Mail meines Owners heißt: max.public.community@gmail.com `)
+
+    }
+ 
+    if(smallinput=='.gwebsite') {
+       reply (` Die Google Website meines Owners ist: https://sites.google.com/view/max2-community-website `)
     }
     
+    if(smallinput=='.googlewebsite') {
+       reply (` Die Google Website meines Owners ist: https://sites.google.com/view/max2-community-website `)
+    }
+
+    if(smallinput=='.googlesite') {
+       reply (` Die Google Website meines Owners ist: https://sites.google.com/view/max2-community-website `)
+    }
+
+    if(smallinput=='.gsite') {
+       reply (` Die Google Website meines Owners ist: https://sites.google.com/view/max2-community-website `)
+    }
+
+    if(smallinput=='bsite') {
+       reply (` Die B-Website meines Owners lautet: https://bumpee.co/adv8w9mnho `)
+    }
+
+    if(smallinput=='bwebsite') {
+       reply (` Die B-Website meines Owners lautet: https://bumpee.co/adv8w9mnho `)
+    }
+
     if (smallinput=='bot') {
       reply (`Hello *${pushname}*, I am *${BotName}*, a WhatsApp bot made by *Fantox* and currently being hosted by *${OwnerName}*.  type  *${prefix}help* to get my full command list.`);
     }
 
     if (smallinput=='lol') {
         reply (`*XD*`)
-    }
+   }
 
     if (smallinput=='.a') {
-        reply (`*a*` )
+        reply (` Pong! `)
     }
 
     if(smallinput=='.a2') {
@@ -1418,6 +1459,18 @@ return list[Math.floor(list.length * Math.random())]
     }
 
     if(smallinput=='.Bottest') {
+       reply (`Pong!`)
+    }
+
+    if(smallinput=='.ping') {
+       reply (`Pong!`)
+    }
+
+    if(smallinput=='.ping1') {
+       reply (`Pong!`)
+    }
+
+    if(smallinput=='.ping2') {
        reply (`Pong!`)
     }
 
