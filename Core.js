@@ -1925,7 +1925,7 @@ await Miku.sendMessage(m.chat, { delete: key })
 
 
 
- case 'listpc': case 'pmuser': case 'privateuser': case 'privatebenutzer': case: 'pmbenutzer': {
+ case 'listpc': case 'pmuser': case 'privateuser': case 'privatebenutzer': case 'pmbenutzer': {
     if (isBan) return reply(mess.banned)	 			
  if (isBanChat) return reply(mess.bangc)
  let anu = await store.chats.all().filter(v => v.id.endsWith('.net')).map(v => v)
