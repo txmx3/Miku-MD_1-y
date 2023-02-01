@@ -1331,8 +1331,10 @@ const ftroli = {
     if (!isInventoriBuruan){ addInventoriBuruan(m.sender) }
 
 
-    const menulist = `-menu`
-    Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by Fantox to take your WhatsApp usage into next level.
+    
+
+const menulist = `   
+Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Fantox to take your WhatsApp usage into next level.
         
        「 System Info 」
     
