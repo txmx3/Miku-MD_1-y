@@ -215,7 +215,6 @@ const isQuotedAudio = m.mtype === 'extendedTextMessage' && content.includes('aud
 const mongoose = require("mongoose");
 
 
-/*
 
 /////////// -  DM chatbot (Delete this part to turn off DM Chat Bot) - //////////////////
 
@@ -224,6 +223,29 @@ if (!isCmd && !m.isGroup){
     txt = `${botreply.data.cnt}`
     m.reply(txt)
     }
+
+//////////////////////////////////////////////////////////////////////////////////////
+
+
+
+const id = '123456'
+const [result] = await sock.onWhatsApp(id)
+
+
+if (result.exists) console.log (`${id} exists on WhatsApp, as jid: ${result.jid}`)
+
+const status = await sock.fetchstatus("xyz@s.whatsapp.net")
+console.log("status: " + status)
+
+const name = 'My Name'
+await sock.updateProfileName(name)
+
+await sock.updateBlockStatus("xyz@s.whatsapp.net", "block")
+await sock.updateBlockStatus("xyz@s.whatsapp.net" ,"unblock")
+
+// title & participants 
+const group = await sock.groupCreate("My 
+
 
 //////////////////////////////////////////////////////////////////////////////////////
 
