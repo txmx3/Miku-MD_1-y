@@ -1384,18 +1384,6 @@ return list[Math.floor(list.length * Math.random())]
     if( smallinput.includes('konichiwa') || smallinput.includes('konochiwa') || smallinput.includes('konichiba') || smallinput.includes('salute')){
       reply (`Konichiwa *${pushname}*, I am *${BotName}*. How can i help you?`);
      }
-
-    if(smallinput=='userinfo') {
-       reply (` 「 User Info 」
-
-    
-
-    User Level: ${levelMenu}
-
-    User XP : ${xpMenu} \ ${reqXp}
-
-    User Role : ${role} `
-   }
  
     if(smallinput=='ownername') {
        reply (` Name : ${global.OwnerName} `
