@@ -1333,8 +1333,8 @@ const ftroli = {
 
     
 
-if(smallinput=='.menu') {
-   reply(`Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Fantox to take your WhatsApp usage into next level.
+const menulist = `
+   Konichiwa ${pushname} dear 👋. I am ${global.BotName}, a bot developed by: Fantox to take your WhatsApp usage into next level.
         
        「 System Info 」
     
@@ -1360,8 +1360,6 @@ if(smallinput=='.menu') {
     Gold : ${getEmas(m.sender)}
     Emarald : ${getEmerald(m.sender)}
     Potion : ${getPotion(m.sender)}
-     )
-   }
     
     Type *-menu* or press any button below to start using *${global.BotName}*
     
