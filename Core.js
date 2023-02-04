@@ -1537,6 +1537,19 @@ switch(command) {
     Miku.sendMessage(m.chat, buttonMessage, { quoted: m })
     }
     break
+	
+	
+
+	
+
+        if (isBanChat) return reply(mess.bangc)
+		reply(` *「 System Info 」*\n
+                Speed : ${latensie.toFixed(4)} 
+                mls Up Time : ${runtime(process.uptime())}
+                Bot Name : ${global.BotName}
+                Owner Name : ${global.OwnerName}
+		𝗧𝗼𝘁𝗮𝗹 𝗨𝘀𝗲𝗿 : ${Object.keys(global.db.users).length}`)
+        break
 
 
 case 'me': case 'profile': case 'p':
